@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 
 /* CONTAINERS */
@@ -134,7 +134,75 @@ body {
 
 #forgot-pass a {
     text-decoration: none;
-    color: #373799;
+    color: #00376B;
 }
 
 /* REGISTER */
+#register-container {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+#register-container a {
+    color: #0095F7 ;
+    font-size: 13px;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+/* GET APP */
+
+#get-app-container {
+    text-align: center;
+    width: 350px;
+}
+
+#get-app-container p {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+#get-app-container a {
+    text-decoration: none;
+}
+
+#get-app-container img {
+    width: 130px;
+    height: 40px;
+}
+
+/* FOOTER */
+footer {
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #footer-links {
+    display: flex;
+    list-style: none;
+}
+
+#footer-links li {
+    margin-right: 10px;
+}
+
+#footer-links a,
+#copyright {
+    text-decoration: none;
+    color: #737373;
+    font-size: 12px;
+}
+
+#copyright {
+    margin-top: 20px;
+}
+
