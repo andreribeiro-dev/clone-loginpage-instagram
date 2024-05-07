@@ -57,6 +57,7 @@ body {
 }
 
 #login-form input {
+    outline: none;
     display: block;
     font-size: 12px;
     padding: 12px 9px;
@@ -67,7 +68,8 @@ body {
     margin: 5px auto;
 }
 
-#login-form input[type="submit"] {
+
+#login-form input[type="submit"] { 
     background-color: #4CB5F9;
     color: #FDFEFF;
     margin-top: 15px;
